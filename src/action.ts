@@ -42,7 +42,7 @@ export async function run (): Promise<void> {
     core.info('Downloading reporter..')
     const filePath = await tc.downloadTool(
       getDownloadUrl(platform, version),
-      path.join(__dirname, getFilename(platform, version))
+      `./${getFilename(platform, version)}`
     )
     core.info(`Reporter saved to ${filePath}`)
 
