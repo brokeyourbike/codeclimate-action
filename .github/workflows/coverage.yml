@@ -28,4 +28,5 @@ jobs:
       - uses: ./
         with:
           token: ${{ secrets.CODECLIMATE_TOKEN }}
+          verbose: true
           files: ${{github.workspace}}/coverage/lcov.info:lcov
