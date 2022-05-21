@@ -1,0 +1,31 @@
+name: coverage
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.md'
+  pull_request:
+    paths-ignore:
+      - '**.md'
+jobs:
+  test-and-cover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - name: npm install
+        run: npm ci
+
+      - name: npm install
+        run: npm test
+
+      - uses: ./
+        with:
+          token: ${{ secrets.CODECLIMATE_TOKEN }}
+          files: ${{github.workspace}}/coverage/lcov.info:lcov
