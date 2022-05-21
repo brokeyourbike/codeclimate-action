@@ -22,9 +22,9 @@ steps:
 
 ## Arguments
 
-Input | Description | Usege
-`token` | Used to authorize coverage report uploads | Required
-`files` | Comma-separated paths to the coverage report(s) | Required
+| Input | Description | Usage |
+| `token` | Used to authorize coverage report uploads | Required |
+| `files` | Comma-separated paths to the coverage report(s) | Required |
 
 ## Authors
 - [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [stasi.uk](https://stasi.uk)
