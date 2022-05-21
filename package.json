@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Easily upload coverage reports to Code Climate from GitHub Actions",
   "main": "dist/index.js",
