@@ -1,5 +1,4 @@
 {
-  "name": "codeclimate-action",
   "version": "0.1.0",
   "private": true,
   "description": "Easily upload coverage reports to Code Climate from GitHub Actions",
