@@ -21,8 +21,9 @@ jobs:
 
       - run: npm ci
       - run: npm test
+      - run: git version
 
-      - uses: brokeyourbike/codeclimate-action@v0.1
+      - uses: ./
         with:
           token: ${{ secrets.CODECLIMATE_TOKEN }}
           verbose: true
