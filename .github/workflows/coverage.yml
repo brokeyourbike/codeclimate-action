@@ -19,11 +19,8 @@ jobs:
           node-version: 16
           cache: 'npm'
 
-      - name: npm install
-        run: npm ci
-
-      - name: npm install
-        run: npm test
+      - run: npm ci
+      - run: npm test
 
       - uses: ./
         with:

@@ -23,7 +23,7 @@ export async function run (): Promise<void> {
     const prefix = core.getInput('prefix')
     const verbose = isTrue(core.getInput('verbose'))
     const workingDir = core.getInput('working-directory')
-    const version = core.getInput('version') !== '' ? core.getInput('version') : 'latest'
+    const version = core.getInput('version')
 
     const execOptions: exec.ExecOptions = {
       cwd: workingDir !== '' ? workingDir : undefined,
@@ -71,6 +71,7 @@ export async function run (): Promise<void> {
       }
       afterBuildArgs.push(locations[0].path)
 
+      core.info('Running after-build..')
       code = await exec.exec(filePath, afterBuildArgs, execOptions)
       if (code !== 0) {
         core.setFailed(`Coverage after-build exited with code ${code}`)

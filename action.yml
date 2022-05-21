@@ -8,6 +8,19 @@ inputs:
   files:
     description: 'Comma-separated list of files to upload'
     required: true
+  prefix:
+    required: false
+    description: 'See https://docs.codeclimate.com/docs/configuring-test-coverage'
+  verbose:
+    description: 'Specify whether the Code Climate output should be verbose'
+    required: false
+  version:
+    description: 'Specify which version of the Code Climate reporter should be used'
+    default: latest
+    required: false
+  working-directory:
+    description: 'Directory in which to execute Code Climate reporter'
+    required: false
 branding:
   color: 'gray-dark'
   icon: 'umbrella'
