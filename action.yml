@@ -1,0 +1,16 @@
+name: 'Code Climate'
+description: 'GitHub Action that uploads coverage reports for your repository to codeclimate.com'
+author: 'Ivan Stasiuk <@brokeyourbike>'
+inputs:
+  token:
+    description: 'Repository upload token - get it from codeclimate.com'
+    required: true
+  files:
+    description: 'Comma-separated list of files to upload'
+    required: true
+branding:
+  color: 'gray-dark'
+  icon: 'umbrella'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
