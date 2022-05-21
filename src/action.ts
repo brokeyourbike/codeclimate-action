@@ -62,14 +62,13 @@ export async function run (): Promise<void> {
     }
 
     if (locations.length === 1) {
-      const afterBuildArgs: string[] = ['after-build', '--coverage-input-type', locations[0].format]
+      const afterBuildArgs: string[] = ['after-build', '--exit-code', '0']
       if (prefix !== '') {
         afterBuildArgs.push('--prefix', prefix)
       }
       if (verbose) {
         afterBuildArgs.push('--debug')
       }
-      afterBuildArgs.push(locations[0].path)
 
       core.info('Running after-build..')
       code = await exec.exec(filePath, afterBuildArgs, execOptions)
