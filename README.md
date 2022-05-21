@@ -23,6 +23,7 @@ steps:
 ## Arguments
 
 | Input | Description | Usage |
+| :---: | :---: | :---: |
 | `token` | Used to authorize coverage report uploads | Required |
 | `files` | Comma-separated paths to the coverage report(s) | Required |
 
