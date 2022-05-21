@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/brokeyourbike/codeclimate-action/compare/v0.1.0...v0.1.1) (2022-05-21)
+
+
+### Bug Fixes
+
+* use unique name for the action ([40d7f35](https://www.github.com/brokeyourbike/codeclimate-action/commit/40d7f3537072a0206768a87d603e46fbe3cd58c4))
+
 ## 0.1.0 (2022-05-21)
 
 
