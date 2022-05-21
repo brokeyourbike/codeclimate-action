@@ -52,7 +52,7 @@ export async function run (): Promise<void> {
     }
 
     core.info('Making it executable..')
-    fs.chmodSync(filePath, 0o755)
+    fs.chmodSync(filePath, 0o775)
 
     core.info('Running before-build..')
     let code: number = await exec.exec(filePath, ['before-build'], execOptions)
