@@ -1,4 +1,4 @@
-name: 'CodeClimate'
+name: 'Code Climate | Coverage'
 description: 'GitHub Action that uploads coverage reports for your repository to codeclimate.com'
 author: 'Ivan Stasiuk <@brokeyourbike>'
 inputs:
