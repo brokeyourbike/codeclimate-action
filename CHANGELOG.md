@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/brokeyourbike/codeclimate-action/compare/v0.1.1...v0.1.2) (2022-05-21)
+
+
+### Bug Fixes
+
+* well this one should be the one right? ([326f0a1](https://www.github.com/brokeyourbike/codeclimate-action/commit/326f0a1c3860e759a030102ca74a4e56dd625413))
+
 ### [0.1.1](https://www.github.com/brokeyourbike/codeclimate-action/compare/v0.1.0...v0.1.1) (2022-05-21)
 
 
