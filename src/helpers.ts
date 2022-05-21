@@ -26,7 +26,7 @@ export const getPublicKeyDownloadUrl = (): string => {
 /**
  * Parses action input to determine is value is true.
  */
-export const isTrue = (variable): boolean => {
+export const isTrue = (variable: string): boolean => {
   const lowercase = variable.toLowerCase()
   return (
     lowercase === '1' ||
