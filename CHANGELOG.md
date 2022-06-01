@@ -1,5 +1,14 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/brokeyourbike/codeclimate-action/compare/v0.1.2...v0.1.3) (2022-05-21)
+
+
+### Bug Fixes
+
+* should it be 775? ([6d18a96](https://www.github.com/brokeyourbike/codeclimate-action/commit/6d18a964b42eadaaa60d339324566df5f2cd1f24))
+* should it be on this path? ([5930dba](https://www.github.com/brokeyourbike/codeclimate-action/commit/5930dba48ff649e7ecf49ceac5420bccf3bd27ed))
+* specify incoming value ([ac6b36a](https://www.github.com/brokeyourbike/codeclimate-action/commit/ac6b36aa1b21e9caf1e2cd2ab00ee8e8a30ea11b))
+
 ### [0.1.2](https://www.github.com/brokeyourbike/codeclimate-action/compare/v0.1.1...v0.1.2) (2022-05-21)
 
 
